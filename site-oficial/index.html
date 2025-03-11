@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+<title>Quinhentismo no Brasil</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px"></a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Quinhentismo</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Autores</a> 
+    <a href="#obras" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Obras</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contexto Histórico</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Literatura de Informação</a> 
+    <a href="#formacao" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Literatura de Formação</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Exercícios</a> 
+    <a href="#creditos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Créditos</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+  <span></span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Quinhentismo no Brasil</b></h1>
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Autores</b></h1>
+    <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-half">
+        <div class="author-name">Manuel da Nóbrega</div>
+        <img src="manueldanobrega.jpg" style="width:100%; height:300px;" onclick="onClick(this)" alt="Manuel da Nóbrega (1517-1570): Manuel da Nóbrega foi um importante sacerdote jesuíta e figura central no processo de evangelização e colonização do Brasil no século XVI, durante o período conhecido como quinhentismo. Sua relação com esse período é marcada por sua atuação na fundação de colégios e na promoção da educação, além de seu papel na conversão dos indígenas ao cristianismo.">
+        
+        <div class="author-name">Hans Staden</div>
+        <br>
+        <img src="hansstaden.webp" style="width:100%; height:300px;" onclick="onClick(this)" alt="Hans Staden (1525-1579): Hans Staden foi um viajante e cronista alemão que teve um papel significativo na documentação da vida indígena e nas experiências de colonização no Brasil durante o quinhentismo, especialmente através de suas narrativas sobre suas interações com os povos nativos.">
+    </div>
+
+    <div class="w3-half">
+        <div class="author-name">José de Anchieta</div>
+        <img src="josedeanchieta.webp" style="width:100%; height:300px;" onclick="onClick(this)" alt="José de Anchieta (1534-1597): José de Anchieta foi um destacado jesuíta, poeta e dramaturgo espanhol, que desempenhou um papel crucial na colonização e evangelização do Brasil durante o quinhentismo. Sua obra e atividades tiveram um impacto significativo na formação cultural e religiosa da colônia.">
+        
+        <div class="author-name">Fernão Cardim</div>
+        <br>
+        <img src="fernaocardin.webp" style="width:100%; height:300px;" onclick="onClick(this)" alt="Fernão Cardim (1549-1625): Fernão Cardim foi um importante jesuíta e cronista que atuou no Brasil durante o período do quinhentismo, especificamente entre 1580 e 1583. Sua obra oferece uma visão detalhada das realidades sociais, culturais e religiosas da colônia, contribuindo para o entendimento da história e da literatura do Brasil colonial.">
+    </div>
+</div>
+
+       <!-- Obras -->
+<div class="w3-container" id="obras" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-blue"><b>Obras</b></h1>
+  <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+  <p>- A carta de Pero Vaz de Caminha.</p>
+  <a href="carta_pero_vaz.html" class="botao">Sobre a carta de Pero Vaz de Caminha</a>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap">
+  <p>- A carta de mestre João Faras.</p>
+  <p>- Relação do piloto anônimo.</p>
+  <p>- Cartas de Pe. Manuel da Nóbrega.</p>
+  <p>- Arte de gramática da língua mais usada na costa do Brasil (1595), de Pe. José de Anchieta.</p>
+  <p>- Duas viagens ao Brasil (1557), de Hans Staden.</p>
+  <p>- Auto da festa de São Lourenço (1583), texto teatral de Pe. José de Anchieta.</p>
+  <a href="popup.html" class="botao">Mais Obras</a>
+</div>
+
+<style>
+  .botao {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(48, 112, 186);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+  }
+  
+  .botao:hover {
+    background-color: rgb(39, 91, 153);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .botao:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+
+<!-- Estilizar as imagens acima-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+    </div>
+</div>
+
+
+
+
+
+  <!-- Contexto Histórico (imagem) -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Contexto Histórico</b></h1>
+    <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+    <p>Final da Idade Média (476-1453) foi marcado pelo aperfeiçoamento e uso da bússola, na navegação, e da pólvora, na fabricação de armas. Esses fatores deram ao ser humano uma sensação de independência em relação às forças divinas, pois, com tamanho poder, eles se viram capazes de vencer os obstáculos da natureza, atravessar o mar e conquistar novas terras. O uso bússola permitiu o surgimento das Grandes Navegações, já a pólvora fez os europeus invencíveis no domínio das novas terras.
+      Dessa forma, nos séculos XV e XVI, Portugal buscou expandir os seus domínios. Houve, então, expedições para a África, Ásia e América. Esta, oficialmente, descoberta por Cristóvão Colombo (1451-1506) em 12 de outubro de 1492.
+    Tanto por meio das descrições de Pero Vaz de Caminha ou das peças e poemas do Padre José de Anchieta, é possível perceber traços do momento histórico que o país passava.</p>
+  </div>
+  
+  <!-- Literatura de Informação -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Literatura de Informação</b></h1>
+    <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+    <p>A "literatura de informação" refere-se a textos cuja função principal é transmitir conhecimento e dados de forma clara e objetiva, diferentemente da literatura ficcional, que prioriza a narrativa e a estética. Essa categoria abrange diversos gêneros e formatos, sendo fundamental para a disseminação do conhecimento em áreas acadêmicas, científicas e profissionais.</p>
+    <h1>Características</h1>
+    <p>- Objetividade: Foca na apresentação clara e precisa de informações, evitando opiniões ou subjetividades.</p>
+    <p>- Estrutura Clara: Geralmente possui uma organização lógica, com seções, subtítulos e parágrafos bem definidos.</p>
+    <p>- Propósito Educacional: O principal objetivo é informar, educar e esclarecer, muitas vezes em contextos acadêmicos, científicos ou jornalísticos.</p>
+    <p>- Recursos Visuais: Frequentemente incorpora gráficos, tabelas, ilustrações e imagens para facilitar a compreensão e tornar a informação mais atraente.</p>
+    <p>- Referências e Citações: Inclui fontes de pesquisa e referências para validar a informação, permitindo ao leitor verificar a veracidade dos dados apresentados.</p>
+
+  </div>
+
+  <!-- Literatura de Formação ou de Catequese -->
+  <div class="w3-container" id="formacao" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Literatura de Formação</b></h1>
+    <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+    <p>Também conhecida como literatura catequética, esse grupo literário é composto por poemas, cartas, sermões e peças de teatro produzidos pelos padres jesuítas que desembarcaram no Brasil no início da colonização. De modo breve, é possível dizer que tais produções tinham como principal função catequizar os nativos do território.
+    A catequização pode ser compreendida como uma espécie de colonização religiosa, haja vista que os deuses e cultos indígenas foram demonizados pelos jesuítas, que impuseram o catolicismo na região. Dessa forma, portanto, o Estado português dominou o território, e a Igreja Católica colonizou a religião dos nativos.</p>
+    <h1>Características:</h1>
+    <p>- Desenvolvimento do Personagem: O enredo gira em torno do crescimento emocional, psicológico e moral do protagonista, mostrando suas experiências de vida e aprendizados.</p>
+    <p>- Fases da Vida: Geralmente, a narrativa abrange diferentes fases da vida do protagonista, como a infância, adolescência e transição para a vida adulta.</p>
+    <p>- Conflitos Internos: O protagonista frequentemente enfrenta dilemas internos e conflitos que contribuem para seu desenvolvimento pessoal e compreensão de si mesmo.</p>
+    <p>- Ambiente Sociocultural: O contexto social e cultural desempenha um papel importante, influenciando as decisões e o crescimento do personagem.</p>
+    <p>- Busca por Identidade: Muitas histórias de formação exploram a busca do protagonista por sua identidade, lugar no mundo e propósito de vida.</p>
+    
+    
+     <!-- Carta Pero vaz de Caminha -->
+    <div class="w3-container" id="designers" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-blue"><b>Carta de Pero Vaz de Caminha</b></h1>
+      <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+      <p>A "Carta de Pero Vaz de Caminha" foi escrita em 1º de maio de 1500, logo após a chegada da expedição de Pedro Álvares Cabral ao Brasil. Considerada um dos primeiros documentos literários sobre o Brasil, a carta foi redigida por Pero Vaz de Caminha, escrivão da armada de Cabral, que teve um papel crucial na documentação dos eventos da época.</p>
+      <p>Nela, Caminha descreve detalhadamente a natureza exuberante do Brasil, incluindo sua fauna, flora e clima. Ele menciona as árvores, plantas e a fertilidade da terra, evidenciando a riqueza do novo território. O encontro com os indígenas é um dos pontos centrais da carta, na qual Caminha os descreve como pessoas amigáveis e curiosas. Ele observa seus costumes, vestimentas e modos de vida, apresentando um olhar tanto admirativo quanto colonial.</p>
+      <p>Outro aspecto importante da carta é a intenção de evangelização dos indígenas, com Caminha mencionando a necessidade de converter os nativos ao cristianismo. Isso reflete a mentalidade da época e os objetivos da Coroa Portuguesa. O estilo da carta é claro e descritivo, proporcionando uma visão do encontro entre culturas e sendo considerada uma das primeiras obras literárias da língua portuguesa. Além disso, serve como um registro das práticas coloniais e da visão europeia sobre o Novo Mundo, constituindo uma fonte rica para historiadores.</p>
+    
+      <footer>
+        <section id="referencias">
+            <h2>Referências</h2>
+            <p>Para mais informações, visite nosso site parceiro: <a href="carta_pero_vaz.html" target="_blank">Carta de Pero Vaz de Caminha</a>.</p>
+        </section>
+    </footer>
+      
+       <!-- Carta aos navegantes -->
+      <div class="w3-container" id="designers" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Carta aos Navegantes</b></h1>
+        <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+        <p>A "Carta de Pedro Álvares Cabral", embora menos conhecida que a carta de Caminha, foi escrita para o rei Dom Manuel I de Portugal e relata a viagem de Cabral e suas descobertas no Novo Mundo. Cabral foi enviado em uma missão para explorar e conquistar novas terras, estabelecer rotas comerciais e reforçar a presença portuguesa na Índia.</p>
+        <p>Na carta, Cabral menciona a chegada ao Brasil, descrevendo a terra como rica e cheia de potencial para a exploração. Ele reconhece a importância estratégica do território para os interesses portugueses. O relato sobre as relações com os indígenas também é abordado, onde Cabral comenta sobre o primeiro contato, similar ao que foi feito por Caminha, ressaltando a curiosidade e a receptividade dos nativos.</p>
+        <p>Cabral destaca as riquezas naturais que poderiam ser exploradas, o que levou à rápida colonização e exploração do Brasil pelos portugueses nos anos seguintes. Embora a carta de Cabral não tenha o mesmo nível de detalhes descritivos que a de Caminha, ela ainda apresenta informações cruciais sobre a expedição, os desafios enfrentados e as expectativas de retorno ao rei.</p>
+        <p>A "Carta de Pedro Álvares Cabral" é significativa para entender as motivações e os objetivos da Coroa Portuguesa durante o período das Grandes Navegações, além de fornecer um contexto sobre a política colonial da época.</p>
+
+
+ 
+        
+
+
+        <!-- Exercícios -->
+      <div class="w3-container" id="designers" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-blue"><b>Exercícios</b></h1>
+        <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+
+
+
+
+
+
+    <!--
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/manueldanobrega.png" style="width:100%" onclick="onClick(this)" alt="Manuel da Nóbrega (1517-1570)">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="Literatura de Informação">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+    </div>-->
+
+  
+  
+  <!-- Contact 
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid rgb(48, 112, 186)" class="w3-round">
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>-->
+
+<!--Primeiro exercício-->
+
+  <div id="contact" class="container">
+    <h1>Questão 1</h1>
+    <p>Das opções abaixo, a que não faz parte das características do Quinhentismo é a alternativa:</p>
+    
+    <form id="quiz-form">
+        <div class="alternativa">
+            <input type="radio" id="opcao1" name="resposta" value="opcao1">
+            <label for="opcao1">(a) textos descritivos, informativos e religiosos.</label>
+        </div>
+        <div class="alternativa">
+            <input type="radio" id="opcao2" name="resposta" value="opcao2">
+            <label for="opcao2">(b) linguagem simples e uso de adjetivos.</label>
+        </div>
+        <div class="alternativa">
+            <input type="radio" id="opcao3" name="resposta" value="opcao3">
+            <label for="opcao3">(c) temas relacionados com a conquista material e espiritual.</label>
+        </div>
+        <div class="alternativa">
+            <input type="radio" id="opcao4" name="resposta" value="opcao4">
+            <label for="opcao4">(d) resgate dos valores clássicos greco-romanos.</label>
+        </div>
+
+        <div class="alternativa">
+          <input type="radio" id="opcao5" name="resposta" value="opcao5">
+          <label for="opcao5">(e) relatos e crônicas de viagem.</label>
+      </div>
+
+        
+        <button type="button" onclick="verificarResposta()">Verificar Resposta</button>
+    </form>
+
+    <div id="resultado"></div>
+</div>
+
+<!--Segundo exercício-->
+<div id="contact2" class="container">
+  <h1>Questão 2</h1>
+  <p>A famosa “Carta de achamento do Brasil”, mais conhecida como
+     “A carta de Pero Vaz de Caminha”, foi o primeiro manuscrito que teve
+      como objeto a terra recém-descoberta. Nela encontramos o primeiro
+      registro de nosso país, feito pelo escrivão do rei de Portugal, 
+      Pero Vaz de Caminha. Podemos inferir, então, a seguinte intenção
+       dos portugueses:</p>
+  
+  <form id="quiz-form2">
+      <div class="alternativa2">
+          <input type="radio" id="opcaoo1" name="resposta2" value="opcaoo1">
+          <label for="opcaoo1">(a) objetivavam o resgate de valores e conceitos sociais brasileiros.</label>
+      </div>
+      <div class="alternativa2">
+          <input type="radio" id="opcaoo2" name="resposta2" value="opcaoo2">
+          <label for="opcaoo2">(b) buscavam descobrir, através da arte, a história da terra recém-descoberta.</label>
+      </div>
+      <div class="alternativa2">
+          <input type="radio" id="opcaoo3" name="resposta2" value="opcaoo3">
+          <label for="opcaoo3">(c) estavam empenhados em conhecer um pouco mais sobre a arte brasileira.</label>
+      </div>
+      <div class="alternativa2">
+          <input type="radio" id="opcaoo4" name="resposta2" value="opcaoo4">
+          <label for="opcaoo4">(d) firmar um pacto de cordialidade com os nativos da terra descoberta.</label>
+      </div>
+
+      <div class="alternativa2">
+        <input type="radio" id="opcaoo5" name="resposta2" value="opcaoo5">
+        <label for="opcaoo5">(e) explorar a tão promissora nova terra.</label>
+    </div>
+
+      
+      <button type="button" onclick="verificarResposta2()">Verificar Resposta</button>
+  </form>
+
+  <div id="resultado2"></div>
+</div>
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div id="creditos" class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Site feito por: <a title="W3.CSS" target="_blank" class="w3-hover-opacity"><br>Bruno Gazola<br>Bruno Thiago<br>Júlio Cesar Trigueiro<br>Kaiki Santos<br>Matheus Alves</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+<script src="script.js"></script>
+<script src="exercicio2.js"></script>
+
+</body>
+</html>
